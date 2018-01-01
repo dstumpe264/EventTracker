@@ -1,0 +1,12 @@
+package data;
+
+import entities.Vehicle;
+
+public interface VehicleDAO {
+	public Vehicle create();
+	public Vehicle getUserById();
+	public Vehicle update();
+	public Vehicle destroy();
+	
+	
+}

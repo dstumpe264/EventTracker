@@ -1,0 +1,78 @@
+package entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
+	
+	private String user;
+	
+	private String pass;
+	
+	private String vehicle;
+	
+	@Column(name="current_miles")
+	private int currentMiles;
+	
+	@Column(name="miles_due")
+	private int milesDue;
+
+	public String getUser() {
+		return user;
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
+
+	public String getPass() {
+		return pass;
+	}
+
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+
+	public String getVehicle() {
+		return vehicle;
+	}
+
+	public void setVehicle(String vehicle) {
+		this.vehicle = vehicle;
+	}
+
+	public int getCurrentMiles() {
+		return currentMiles;
+	}
+
+	public void setCurrentMiles(int currentMiles) {
+		this.currentMiles = currentMiles;
+	}
+
+	public int getMilesDue() {
+		return milesDue;
+	}
+
+	public void setMilesDue(int milesDue) {
+		this.milesDue = milesDue;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", user=" + user + ", pass=" + pass + ", vehicle=" + vehicle + ", currentMiles="
+				+ currentMiles + ", milesDue=" + milesDue + "]";
+	}
+	
+	
+}

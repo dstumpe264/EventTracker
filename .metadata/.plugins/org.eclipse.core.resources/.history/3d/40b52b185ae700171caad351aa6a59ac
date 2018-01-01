@@ -1,0 +1,42 @@
+package data;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import entities.User;
+
+@Repository
+@Transactional
+public class VehicleDAOImpl implements VehicleDAO{
+	@PersistenceContext
+	EntityManager em;
+
+	@Override
+	public Vehicle create() {
+		Vehicle newVehicle = create();
+		
+		return newVehicle;
+	}
+
+	@Override
+	public Vehicle getUserById() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Vehicle update() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Vehicle destroy() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
