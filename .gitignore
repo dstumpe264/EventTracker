@@ -1,6 +1,9 @@
+.DS_Store
+target
+build
+bin
+.metadata
 .gradle
-.metadata/
-eventtrackerdb.mwb.bak
-RemoteSystemsTempFiles/
-Servers/
-.recommenders/
+Servers
+.recommenders
+.settings
