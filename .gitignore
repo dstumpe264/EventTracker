@@ -1,23 +1,4 @@
-Skip to content
-The vote is over, but the fight for net neutrality isn’t. Show your support for a free and open internet.
-Learn more  Dismiss
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @dstumpe264
- Sign out
- Watch 0
-  Star 0  Fork 0 jdcald13/EventTracker
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-Branch: master Find file Copy pathEventTracker/.gitignore
-82fcf6d  12 hours ago
-@jdcald13 jdcald13 Soda event tracker
-1 contributor
-RawBlameHistory
-45 lines (40 sloc)  539 Bytes
+
 .metadata
 Servers
 .recommenders
@@ -62,15 +43,3 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
