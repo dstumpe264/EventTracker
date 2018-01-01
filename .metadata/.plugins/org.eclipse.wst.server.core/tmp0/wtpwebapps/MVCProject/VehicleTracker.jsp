@@ -14,9 +14,9 @@
 
   <h1>Welcome to the Vehicle Tracker</h1>
   <h3>This app is to allow you to be able to track your vehicle maintenance.</h3>
+<div id="newVehicle">
   <button type="button" id="newVehicle" value="New Vehicle">New Vehicle</button>
-
-
+</div>
   <script src='eventTracker.js'></script>
 </body>
 </html>

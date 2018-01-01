@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 $('.newVehicle').click().function (e) {
-
+  $('.newVehicle').
 }
 
 $('#displayVehicle').click().function(e) {
