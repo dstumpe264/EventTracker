@@ -1,2 +1,2 @@
-* David Stumpe
-** Event Tracker Project
+# David Stumpe
+## Event Tracker Project
