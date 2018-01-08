@@ -1,8 +1,0 @@
-package data;
-
-import entities.User;
-
-public interface UserDAO {
-	public User createUser();
-	
-}
